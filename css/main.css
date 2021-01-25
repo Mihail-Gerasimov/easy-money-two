@@ -12,6 +12,10 @@
     /* Chrome < 4, Legacy iOS */
 }
 
+input ::placeholder {
+    color: khaki;
+}
+
 @font-face {
     font-family: 'Gilroy-Bold';
     src: url('../fonts/gilroy-bold.eot');
@@ -378,12 +382,72 @@ button:focus {
     padding: 50px 55px;
 }
 
+.thanks-for-the-application {
+    font-size: 36px;
+    line-height: 46px;
+    color: #FF635C;
+    font-family: 'Gilroy-Black';
+}
+
+.connection {
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'Gilroy-Regular';
+}
+
 .subtitle-quiz {
     font-family: 'Gilroy-Bold';
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
     margin-bottom: 30px;
+}
+
+.subtitle-quiz--okey {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Gilroy-Bold';
+}
+
+.okey__bottom {
+    margin-bottom: 80px;
+}
+
+input {
+    cursor: pointer !important;
+}
+
+.btn.focus {
+    box-shadow: none !important;
+}
+
+.input-tel {
+    background-color: #fff !important;
+    border: 1px solid #C6C6C6 !important;
+    color: gray !important;
+    outline: none;
+    width: 100%;
+    padding: 15px 0 15px 20px !important;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: start;
+    font-family: 'Gilroy-Regular';
+}
+
+.input-tel:hover {
+    background-color: #fff !important;
+    border: 1px solid #C6C6C6 !important;
+    color: gray !important;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.input-tel:focus {
+    background-color: #fff !important;
+    border: 1px solid #C6C6C6 !important;
+    color: gray !important;
+    outline: none;
+    box-shadow: none !important;
 }
 
 .btn-secondary {

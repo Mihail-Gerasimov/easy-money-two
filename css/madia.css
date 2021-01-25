@@ -24,6 +24,14 @@
         width: 360px;
         right: 30px;
     }
+    .thanks-for-the-application {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .connection {
+        font-size: 22px;
+        line-height: 26px;
+    }
     .subtitle-quiz {
         font-size: 20px;
         line-height: 25px;
@@ -41,6 +49,14 @@
 
 @media (max-width: 1610px) {
     /* main */
+    .case-money {
+        width: 250px;
+        margin-bottom: 20px !important;
+    }
+    .subtitle-quiz--okey {
+        font-size: 16px;
+        line-height: 22px;
+    }
     .btn-secondary {
         font-size: 13px;
         line-height: 15px;
@@ -133,6 +149,17 @@
         width: 30%;
         padding: 25px 30px;
     }
+    .case-money {
+        width: 220px;
+        margin-top: 0px !important;
+    }
+    .connection {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .okey__bottom {
+        margin-bottom: 35px;
+    }
     .subtitle-quiz {
         font-size: 16px;
         line-height: 20px;
@@ -184,6 +211,10 @@
     }
     /* header */
     /* main */
+    .subtitle-quiz--okey {
+        font-size: 18px;
+        line-height: 22px;
+    }
     .quiz-information__big {
         width: 200px;
     }
@@ -327,11 +358,26 @@
         align-items: center;
         width: auto;
     }
+    .case-money {
+        width: 200px;
+    }
+    .thanks-for-the-application {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .connection {
+        font-size: 18px;
+        line-height: 22px;
+        width: 240px;
+    }
     .subtitle-quiz {
         font-size: 18px;
         line-height: 22px;
         width: 270px;
         margin-bottom: 30px;
+    }
+    .okey__bottom {
+        width: 270px;
     }
     .btn-group {
         margin-bottom: 30px;
@@ -341,6 +387,9 @@
         font-size: 14px;
         line-height: 19px;
         padding: 15px 0 15px 5px !important;
+    }
+    .quiz-bottim__block {
+        width: 275px;
     }
     .quiz-back {
         padding: 13px 35px;
@@ -408,3 +457,115 @@
     }
     /* modal */
 }
+
+
+/* height */
+
+@media (max-height: 820px) {
+    /* header */
+    .header-block {
+        padding: 20px 0;
+    }
+    /* header */
+    /* main */
+    .quiz-information__top {
+        margin-bottom: 30px;
+        padding-top: 40px;
+        padding-left: 45px;
+    }
+    .information-decision {
+        margin-bottom: 30px;
+    }
+    .quiz-information__bottom {
+        padding: 0 0 40px 45px;
+    }
+    .bottom--block {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .quiz-choice {
+        padding: 40px 45px;
+    }
+    .quiz-information__big {
+        width: 320px;
+    }
+    .subtitle-quiz {
+        margin-bottom: 20px;
+    }
+    /* main */
+}
+
+@media (max-height: 820px) and (max-width: 1520px) {
+    /* main */
+    .quiz-information__big {
+        width: 305px;
+    }
+    /* main */
+}
+
+@media (max-height: 740px) and (max-width: 1360px) {
+    /* main */
+    .header-block {
+        padding: 15px 0;
+    }
+    .quiz-information__top {
+        margin-bottom: 15px;
+        padding-top: 25px;
+        padding-left: 30px;
+    }
+    .information-decision {
+        margin-bottom: 10px;
+    }
+    .information-history {
+        font-size: 15px;
+        line-height: 120%;
+        width: 275px;
+    }
+    .information__bottom {
+        padding: 0 0 26px 30px;
+    }
+    .quiz-information__bottom {
+        padding: 0 0 25px 30px;
+    }
+    .bottom--block {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .okey__bottom {
+        margin-bottom: 10px;
+    }
+    .subtitle-quiz--okey {
+        margin-bottom: 20px !important;
+    }
+    .quiz-information__big {
+        width: 200px;
+    }
+    .quiz-choice {
+        padding: 25px 30px;
+    }
+    .footer-text {
+        padding: 10px 0;
+    }
+    /* main */
+}
+
+@media (max-height: 740px) and (max-width: 860px) {
+    .footer-text {
+        padding: 5px 0;
+        font-size: 9px;
+        line-height: 10px;
+    }
+}
+
+@media (max-height: 820px) and (max-width: 1360px) {
+    .quiz-information__big {
+        width: 200px;
+    }
+    .thanks-for-the-application {
+        font-size: 21px;
+        line-height: 25px;
+    }
+}
+
+
+/* height */
