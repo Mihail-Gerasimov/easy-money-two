@@ -103,12 +103,12 @@
 html {
     scroll-behavior: smooth;
     height: 100%;
-    /* background: #FF635C; */
+    background: #FF635C;
 }
 
 html,
 body {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     line-height: normal;
     margin: 0;
     padding: 0;
@@ -122,7 +122,7 @@ body {
     background: #FF635C;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     body {
         overflow: inherit;
     }
